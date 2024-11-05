@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+     <title>Lar doce lar</title> 
+     <meta name ="description" content="Dicas de uma casa melhor">
+     <link rel="Stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Lar doce lar - Saiba como decorar sua casa</h1>
+        </header>
+            <main>
+            <section>
+                <h2>Dicas de como decorar sua casa da melhor forma</h2>
+                <p>Esse site foi criado para ajudar a <strong>decorar</strong> sua casa da melhor forma e acessível, aqui você encontrará diversos tipos de decoração para cada estilo!</p>
+                <p>O que é melhor, comprar uma casa nova e ter mais gastos? <br> Ou Fazer uma grande mudança em sua própria casa, onde há muita história e lembranças?</p>
+            </section>
+            <section> 
+                <!--Pergunta 1: resposta alternativa-->
+                <h2> Qual tipo de decoração você gosta?</h2>
+                <form>
+                    <input type="radio" value="Python" id="p1a"
+                    name="pergunta1">
+                    <label for="p1a">Moderna</label><br>
+                    <input type="radio" value="Html" id="p1b"
+                    name="pergunta1">
+                    <label for="p1b">Vintage</label><br>
+                    <input type="radio" value="Javascript" id="p1c"
+                    name="pergunta1">
+                    <label for="p1c">Clássica</label><br>
+                </form>
+                <!--Pergunta 2: Resposta livre-->
+            <section> 
+            <h2>Qual sua cor favorita para pintura?</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2"
+                    placeholder="Digite a sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 3: Senha-->
+            <section>
+                <h2> Pergunta 3: Prefere comôdos grandes ou pequenos</h2>
+                <form>
+                    <input type="password" id="p3"
+                    name="pergunta3" placeholder="Digite sua senha...">
+                </form>
+            </section>
+            <!--Pergunta 4: Data-->
+            <section>
+                <h2>Pergunta 4: Quando comprou sua casa?</h2>
+                <form>
+                    <input type="date" id="p4" name="Pergunta 4">
+                </form>
+            </section>
+<section> 
+    <h2>Pergunta 5: Quais comôdos você vai querer redecorar?</h2>
+    <form>
+        <input type="checkbox" value="Javascript" id="p5a" 
+        name="Pergunta5">
+        <label for="p5a">Quarto</label>
+        <input type="checkbox" id="p5a" 
+        name="Pergunta5" value="CSS">
+        <label for="p5b">Sala</label>
+        <input type="checkbox" id="p5a" 
+        name="Pergunta5" value="html">
+        <label for="p5b">Bnaheiro</label>
+    
+    </form>
+</section>
+<!--Pergunta 6:Upload de arquivo-->
+        <section>
+            <h2> Pergunta 6: Faça o uploado de um arquivo contendo código HTML</h2>
+            <form>
+                <input type="file" id="p6" name="Pergunta6">
+            </form>
+        </section>
+        <!--Pergunta 7: Meu suspenso-->
+        <section>
+            <h2>Pergunta 7: Seleciona o atributo do input que define o seu tipo:</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
+            </section>
+            <!--Pergunta 8:Imagem-->
+                <section>
+                    <h2> Pergunta 8: Qual estilo de comôdo é representada pelo imagem abaixo?</h2>
+                    <figure>
+                    <img src="escrivaninha.jpeg" width= 260 "Imagem de escrivaninha"><br>
+                    <figcaption> Figura 1: Idéia para escritório</figcaption>
+                </figure>
+                    <input type="text" id="p8" name="pergunta8"
+                    placeholder="Digite sua opinião...">
+                </section>
+<!--Tabela de pontuação-->
+<section>
+    <h2>Tabela de pontuação</h2>
+    <table border="1">
+
+        <thead> 
+            <tr></tr>
+            <th>Pontuação</th>
+            <th> Avaliação</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>0-2</td> 
+            <td>Não desista! Você consegue!</td>
+        </tr>
+        <tr>
+            <td>3-4</td> 
+            <td>Precisa melhorar!</td>
+        </tr>
+        <tr>
+            <td>5-6</td> 
+            <td>Está evoluindo, continue!</td>
+        </tr>
+        <tr>
+            <td>7-8</td> 
+            <td>Woooow, está arrasando!</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Boa sorte na próxima!</td>
+        </tr>
+    </tfoot>
+    </table>
+    
+</section>
+<!--Listas-->
+<section>
+<h2>Verifique suas respostas</h2>
+<details>
+    <summary>Clique aqui para ver as respostas</summary>
+<ol>
+    <li> Html</li>
+    <li> Dominio</li>
+    <li>Ab23!</li>
+    <li>Javascript</li>
+    <li> Arquvio deve ter extensão html</li>
+</ol>
+</details>
+</section>
+<section>
+    <h2>Nos de seu Feedback</h2>
+    <form>
+        <fieldset>
+            <legend>Informações de contato</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="username">Username:</label><br>
+                <input type="Username" id="username" name="username"><br>
+                <label for="Email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="Comentarios">Comentários</label><br>
+                <textarea id="Comentarios" name="Comentarios"
+                rows="4" cols="40"
+                placeholder="Digite seu Feedback">
+            </textarea>
+        </fieldset>
+
+    </form>
+</section>
+        </main>
+        <!--Rodapé-->
+        <footer>
+            <p>&copy; Site de decoração. Todos os direitos reservados</p>
+            <p>Para conhecer sobre mim <a href="outrapagina.html" target="_blank">clique aqui</a></p>
+        </footer>
+        
+    </body>
+
+
+
+</html>

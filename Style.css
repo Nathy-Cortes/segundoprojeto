@@ -1,0 +1,116 @@
+* {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 2px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(223, 238, 207);
+    color: black;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: rgb(69, 140, 69);
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.90rem;
+}
+
+h1 {
+    color: rgb(233, 233, 172);
+    font-size: 1.9rem;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    accent-color: green;
+    
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="Email"] 
+{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid green;
+    outline: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+} 
+
+input::placeholder{
+    color: brown;
+}
+
+select {
+    cursor: pointer;
+    background-color: rgb(119, 180, 119);
+    color: #331F19;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 9rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+th {
+    background-color: #98c775;
+    color: #57413a;
+    padding: 1rem;
+}
+
+td { color: #57413a;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #331F19;
+    color: beige;
+}
+
+details{
+    background-color: #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331F19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    
+}
